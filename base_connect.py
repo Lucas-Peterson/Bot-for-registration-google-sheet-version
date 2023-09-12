@@ -14,7 +14,7 @@ async def transfer_data():
     SERVICE_ACCOUNT_FILE = 'crypto-triode-391108-e1eb1490073a.json'
 
     # ID таблицы Google Sheets
-    SPREADSHEET_ID = '1mNoitEXwRSngHXI2gdrShCXOYWBV86-NNC4qcuxp_0Y'
+    SPREADSHEET_ID = ''
 
     # Создание экземпляра служебного аккаунта Google Cloud
     credentials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=['https://www.googleapis.com/auth/spreadsheets'])
